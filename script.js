@@ -1,5 +1,5 @@
 /* =========================================================
-   El Rincón de Nini · Pelluhue
+   Cabaña en Pelluhue · Maule
    ========================================================= */
 (function () {
   "use strict";
@@ -185,7 +185,7 @@
         return;
       }
 
-      var lineas = ["Hola, quiero consultar por El Rincón de Nini en Pelluhue."];
+      var lineas = ["Hola, quiero consultar por la cabaña en Pelluhue."];
       lineas.push("Nombre: " + nombre);
       if (desde || hasta) {
         lineas.push("Fechas: " + (desde || "?") + " al " + (hasta || "?"));
